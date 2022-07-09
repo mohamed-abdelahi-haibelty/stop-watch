@@ -47,3 +47,12 @@ resetBtn.addEventListener("click",()=>{
     text.innerHTML="00:00";
     counter = 0;
 });
+
+const audio = new Audio("Audio/sound.mp3")
+const buttons = document.querySelectorAll("button");
+
+buttons.forEach(button=>{
+    button.addEventListener("click",()=>{
+        audio.play();
+    });
+})

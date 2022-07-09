@@ -7,4 +7,41 @@
 }
 *{
     box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: var(--black-color);
+}
+h1{
+    color:#fff;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+}
+main{
+   position: absolute;
+   left: 50%;
+   top: 30%;
+   transform: translate(-40%,-40%);
+}
+p{
+    color: #af8c01;
+    margin-bottom: 25px;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+}
+button{
+    padding: 10px 30px;
+    border-radius: 15px;
+    background-color: transparent;
+    color: var(--yelow);
+    border: 1px solid var(--light-brown);
+    cursor: pointer;
+    margin-right: 10px;
+}
+button:hover{
+    color: #fff;
+    border-color: #333548;
 }
