@@ -1,0 +1,10 @@
+:root{
+    --black-color:#04060f;
+    --dark-grey:#333548;
+    --dark-brown:#453f1E;
+    --light-brown:#af8c01;
+    --yelow:#d8ab00;
+}
+*{
+    box-sizing: border-box;
+}
